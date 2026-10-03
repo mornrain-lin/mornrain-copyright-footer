@@ -132,29 +132,29 @@ Shortcode: `[mornrain_copyright]`, or `[mornrain_copyright post_id="12"]`.
 ## File structure
 
 ```text
-mornrain-copyright-footer/
-|-- .github/
-|   `-- workflows/
-|       `-- build.yml
-|-- assets/
-|   `-- css/
-|       |-- admin.css
-|       `-- copyright-footer.css
-|-- includes/
-|   |-- class-mornrain-copyright-footer-settings.php
-|   |-- class-mornrain-copyright-footer-shortcode.php
-|   |-- class-mornrain-copyright-footer.php
-|   `-- functions-copyright-footer.php
-|-- tests/
-|   |-- ScaffoldTest.php
-|   `-- bootstrap.php
-|-- mornrain-copyright-footer.php
-|-- composer.json
-|-- LICENSE
-|-- phpunit.xml.dist
-|-- README.md
-|-- readme.txt
-`-- uninstall.php
+mornrain-copyright-footer/                              # MornRain Copyright Footer 插件根目录：可配置版权声明
+|-- .github/                                            # GitHub 仓库配置目录
+|   `-- workflows/                                      # GitHub Actions 工作流目录
+|       `-- build.yml                                   # CI 工作流：在 PHP 8.1–8.3 上 lint、跑 PHPUnit 并打包 ZIP 构件
+|-- assets/                                             # 前端静态资源目录
+|   `-- css/                                            # 样式资源目录
+|       |-- admin.css                                   # 后台设置页样式
+|       `-- copyright-footer.css                        # 前台版权声明样式
+|-- includes/                                           # 插件 PHP 源码目录
+|   |-- class-mornrain-copyright-footer-settings.php    # 设置类：基于 Settings API 构建后台设置页与字段校验
+|   |-- class-mornrain-copyright-footer-shortcode.php   # 短码类：实现 [mornrain_copyright] 短码
+|   |-- class-mornrain-copyright-footer.php             # 主类：注册钩子并向选定文章类型内容追加版权声明
+|   `-- functions-copyright-footer.php                  # 辅助函数：占位符替换、设置读取与声明 HTML 生成
+|-- tests/                                              # PHPUnit 测试目录
+|   |-- ScaffoldTest.php                                # 脚手架冒烟测试：断言 README、LICENSE、composer.json 存在
+|   `-- bootstrap.php                                   # PHPUnit 引导文件：存在时才加载 Composer 自动加载器
+|-- mornrain-copyright-footer.php                       # 插件入口：声明插件头并加载 includes
+|-- composer.json                                       # Composer 元数据与 lint/test 脚本
+|-- LICENSE                                             # GPL-2.0-or-later 许可证全文
+|-- phpunit.xml.dist                                    # PHPUnit 配置，扫描 tests 目录
+|-- README.md                                           # 插件说明文档
+|-- readme.txt                                          # WordPress 插件目录要求的 readme.txt
+`-- uninstall.php                                       # 卸载脚本：删除设置选项（含多站点）
 ```
 
 ---
@@ -226,4 +226,3 @@ network. The plugin creates no custom tables, no transients and no user meta.
 
 Released under the **GNU General Public License v2 or later**. See
 [LICENSE](LICENSE) for the full text.
-*（内容由AI生成，仅供参考）*
