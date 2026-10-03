@@ -1,0 +1,28 @@
+/*! MornRain Copyright Footer - assets/css/copyright-footer.css */
+
+.mornrain-copyright {
+	display: block;
+	margin: 2.4em 0 0;
+	padding: 1.1em 0 0;
+	border-top: 1px solid rgba(127, 127, 127, 0.3);
+	font-size: 0.85em;
+	line-height: 1.7;
+	opacity: 0.8;
+	clear: both;
+}
+
+.mornrain-copyright__notice {
+	margin: 0;
+}
+
+.mornrain-copyright__notice a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid currentColor;
+}
+
+@media print {
+	.mornrain-copyright {
+		border-top-color: #cccccc;
+	}
+}

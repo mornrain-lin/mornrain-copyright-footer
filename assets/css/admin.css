@@ -1,0 +1,16 @@
+/*! MornRain Copyright Footer - assets/css/admin.css */
+
+.settings_page_mornrain-copyright-footer .regular-text {
+	width: 100%;
+	max-width: 640px;
+}
+
+.settings_page_mornrain-copyright-footer fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.settings_page_mornrain-copyright-footer .description {
+	max-width: 640px;
+}
