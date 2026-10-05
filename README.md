@@ -1,14 +1,3 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: cf93d2ba4252e3fc820ac383cb09c649_7e089878be7a11f18019525400248c00
-    ReservedCode1: tfH1tNc5RAKd47xnDSaVkEFJmuu6iwYI27WxxKeHusnLNyzXS/1hACG/wVEzYSDTdjYVGaZ4fnZYTPZS08wrvSFubx+LUxnrV33l2uT9ZVMJrkWZO26o5oCFo3fdfZQ01knEymUu6S6c2sy0cjBAsTBh7J/3mVGp62rjUrdwQxsxfPMicu1zBLNfxTw=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: cf93d2ba4252e3fc820ac383cb09c649_7e089878be7a11f18019525400248c00
-    ReservedCode2: tfH1tNc5RAKd47xnDSaVkEFJmuu6iwYI27WxxKeHusnLNyzXS/1hACG/wVEzYSDTdjYVGaZ4fnZYTPZS08wrvSFubx+LUxnrV33l2uT9ZVMJrkWZO26o5oCFo3fdfZQ01knEymUu6S6c2sy0cjBAsTBh7J/3mVGp62rjUrdwQxsxfPMicu1zBLNfxTw=
----
-
 # MornRain Copyright Footer
 
 > A configurable copyright notice appended to your posts, driven by the Settings API.
