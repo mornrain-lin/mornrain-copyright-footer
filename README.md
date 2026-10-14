@@ -1,4 +1,4 @@
-![mornrain-copyright-footer](assets/preview.png)
+![mornrain-copyright-footer](assets/admin.png)
 
 # MornRain Copyright Footer
 
@@ -19,6 +19,10 @@ the site owner explicitly configures.
 | Class prefix | `Mornrain_Copyright_Footer` |
 
 ---
+
+## 界面预览
+
+![后台设置界面](assets/admin.png)
 
 ## Table of contents
 
