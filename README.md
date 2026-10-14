@@ -1,3 +1,5 @@
+![mornrain-copyright-footer](assets/preview.png)
+
 # MornRain Copyright Footer
 
 > A configurable copyright notice appended to your posts, driven by the Settings API.
